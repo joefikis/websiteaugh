@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+    width: 100%;
+    background-color: black;
+    height: 4rem;
+    z-index: 10;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navbar-logo h1 {
+    color: white;
+    z-index: 1;
+    font-family: cursive;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-logo h1:hover {
+    color: gray;
+}
