@@ -14,7 +14,23 @@ function Navbar() {
                 </div>
                 <div className="navbar-link-wrapper">
                     <div className="navbar-links">
-
+                        <ul className='nav-link-wrapper'>
+                            <li className='nav-link'>
+                                <button>
+                                    <a href="/">Home</a>
+                                </button>
+                            </li>
+                            <li className='nav-link'>
+                                <button>
+                                    <a href="/">About</a>
+                                </button>
+                            </li>
+                            <li className='nav-link'>
+                                <button>
+                                    <a href="/">Plans</a>
+                                </button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

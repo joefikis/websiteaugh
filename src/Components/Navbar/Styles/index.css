@@ -8,6 +8,7 @@
     background-color: black;
     height: 4rem;
     z-index: 10;
+;
 }
 
 .navbar-container {
@@ -19,12 +20,53 @@
 
 .navbar-logo h1 {
     color: white;
+    position: relative;
     z-index: 1;
     font-family: cursive;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+    margin-top: 5px;
 }
 
 .navbar-logo h1:hover {
+    color: gray;
+}
+
+.navbar-wrapper {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+}
+
+
+.nav-link-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: center;
+    list-style: none;
+}
+
+.nav-link li {
+    list-style: none;
+}
+
+.nav-link button {
+    background-color: transparent;
+    position: relative;
+    border: none;
+    width: 80px;
+    height: 40px;
+    z-index: 2;
+}
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-link a:hover {
     color: gray;
 }
