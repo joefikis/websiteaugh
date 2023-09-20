@@ -33,6 +33,13 @@ function Navbar() {
                         </ul>
                     </div>
                 </div>
+                <div className="nav-signup-btn">
+                        <li className='nav-signup-btn-li'>
+                                <button>
+                                    <a href="/">Sign Up</a>
+                                </button>
+                        </li>
+                    </div>
             </div>
         </div>
     </nav>

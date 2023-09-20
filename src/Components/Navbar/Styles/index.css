@@ -13,7 +13,6 @@
 
 .navbar-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -44,7 +43,9 @@
     flex-direction: row;
     gap: 10px;
     align-content: center;
+    justify-self: center;
     list-style: none;
+    margin-left: 1.6rem;
 }
 
 .nav-link li {
@@ -69,4 +70,32 @@
 
 .nav-link a:hover {
     color: gray;
+}
+
+.nav-signup-btn {
+    display: flex;
+    align-self: center;
+
+    list-style: none;
+}
+
+.nav-signup-btn button {
+    background-color: gray;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-signup-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.nav-signup-btn button:hover {
+    background-color: rgb(87, 86, 86);
 }
